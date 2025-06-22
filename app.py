@@ -150,7 +150,7 @@ def main():
                             f'<div class="result-text" style="background-color: rgba(37, 99, 235, 0.1);">Age: {age}</div>',
                             unsafe_allow_html=True,
                         )
-                        gender_color = "#9F7AEA" if gender == "Female" else "#4F46E5"
+                        gender_color = "#90B195" if gender == "Female" else "#005600"
                         col2.markdown(
                             f'<div class="result-text" style="background-color: rgba({", ".join(map(str, hex_to_rgb(gender_color)))}, 0.1);">'
                             f"Gender: {gender}<br>"
